@@ -1,6 +1,6 @@
 {
   "name": "simple-karma-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A super simple wrapper around Karma",
   "main": "index.js",
   "scripts": {
