@@ -1,0 +1,29 @@
+{
+  "name": "simple-karma-wrapper",
+  "version": "1.0.0",
+  "description": "A super simple wrapper around Karma",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r3fuze/simple-karma-wrapper"
+  },
+  "keywords": [
+    "karma",
+    "wrapper"
+  ],
+  "author": "Morten Lindhardt <r3fuze@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/r3fuze/simple-karma-wrapper/issues"
+  },
+  "dependencies": {
+    "karma": "^0.12.16"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.17.0"
+  }
+}
