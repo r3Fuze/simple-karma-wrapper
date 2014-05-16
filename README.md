@@ -14,8 +14,42 @@ This module is installed via npm:
 $ npm install simple-karma-wrapper
 ```
 
-## Example Usage
+## API
 
+### start(configFile, options, callback)
+
+#### configFile
+Type: `Sting`
+Default: `karma.conf.js`
+
+The path to your karma config file
+
+#### options
+Type: `Object`
+Default: `{}`
+
+Options to pass into karma
+
+#### callback
+Type: `Function`
+
+Optional callback to run when karma is finished. Useful for gulp
+
+
+### run(config, callback)
+
+#### config
+Type: `Object`
+Default: `{}`
+
+Options to pass into karma
+
+#### callback
+Type: `Function`
+
+Optional callback to run when karma is finished. Useful for gulp
+
+## Example Usage
 ``` js
 var simpleKarmaWrapper = require('simple-karma-wrapper');
 
