@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/r3fuze/simple-karma-wrapper"
+    "url": "https://github.com/r3Fuze/simple-karma-wrapper"
   },
   "keywords": [
     "karma",
     "wrapper"
   ],
   "author": "Morten Lindhardt <r3fuze@gmail.com>",
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/r3fuze/simple-karma-wrapper/issues"
+    "url": "https://github.com/r3Fuze/simple-karma-wrapper/issues"
   },
   "dependencies": {
     "karma": "^0.12.16"
