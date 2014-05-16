@@ -4,7 +4,7 @@ A super simple wrapper around Karma
 
 This is very hacky and will fail if used incorrectly, I mostly built this for myself
 
-[![build status](https://secure.travis-ci.org/r3fuze/simple-karma-wrapper.png)](http://travis-ci.org/r3fuze/simple-karma-wrapper)
+[![build status](https://secure.travis-ci.org/r3Fuze/simple-karma-wrapper.png)](http://travis-ci.org/r3Fuze/simple-karma-wrapper)
 
 ## Installation
 
