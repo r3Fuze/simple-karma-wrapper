@@ -20,12 +20,14 @@ $ npm install simple-karma-wrapper
 
 #### configFile
 Type: `Sting`
+
 Default: `karma.conf.js`
 
 The path to your karma config file
 
 #### options
 Type: `Object`
+
 Default: `{}`
 
 Options to pass into karma
@@ -40,6 +42,7 @@ Optional callback to run when karma is finished. Useful for gulp
 
 #### config
 Type: `Object`
+
 Default: `{}`
 
 Options to pass into karma
@@ -53,7 +56,7 @@ Optional callback to run when karma is finished. Useful for gulp
 ``` js
 var simpleKarmaWrapper = require('simple-karma-wrapper');
 
-simpleKarmaWrapper.start("karma.conf.js", { port: 9879}, callback);
+simpleKarmaWrapper.start("karma.conf.js", { port: 9879 }, callback);
 
 simpleKarmaWrapper.run(callback);
 ```
