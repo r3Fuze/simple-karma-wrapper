@@ -52,10 +52,10 @@ module.exports.run = function(config, callback) {
 
     config = config || {};
 
-    runner.run(config, function(exitCode) {
+    runner.run(config, function() {
         if (typeof callback === "function") {
             callback();
-            process.exit(exitCode);
+            //process.exit(exitCode);
         }
     });
 };
