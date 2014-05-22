@@ -38,9 +38,8 @@ module.exports.start = function(configFilePath, options, callback) {
 	server.start(config, function(exitCode) {
 		if (typeof callback === "function") {
             callback();
+            process.exit(exitCode);
         }
-
-		process.exit(exitCode);
 	});
 };
 
@@ -49,14 +48,14 @@ module.exports.run = function(config, callback) {
 
     if (typeof config === "function") {
         callback = config;
-        config = {};
     }
+
+    config = config || {};
 
     runner.run(config, function(exitCode) {
         if (typeof callback === "function") {
             callback();
+            process.exit(exitCode);
         }
-
-        process.exit(exitCode);
     });
 };
